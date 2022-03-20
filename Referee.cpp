@@ -20,6 +20,24 @@ char Referee::refGame(Human player1, Computer player2){
        else if (hChoice=='S' && cChoice=='R'){
         return 'L';
     }
+           else if (hChoice=='R' && cChoice=='P'){
+        return 'L';
+    }
+           else if (hChoice=='P' && cChoice=='P'){
+        return 'T';
+    }
+           else if (hChoice=='S' && cChoice=='P'){
+        return 'W';
+    }
+           else if (hChoice=='R' && cChoice=='S'){
+        return 'W';
+    }
+           else if (hChoice=='P' && cChoice=='S'){
+        return 'L';
+    }
+           else if (hChoice=='S' && cChoice=='S'){
+        return 'T';
+    }
     else {
         return 'Z';
     }

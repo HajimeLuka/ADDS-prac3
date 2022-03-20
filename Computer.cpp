@@ -11,7 +11,6 @@ Computer::Computer(){
 
 
 char Computer::makeMove(){
-    move = 'R';
     return move;
 }
 

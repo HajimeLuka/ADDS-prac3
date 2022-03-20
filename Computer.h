@@ -6,14 +6,18 @@
 using namespace std;
 
 class Computer{
-    
+
     private:
-    char move;
+
 
     public:
     Computer();
-    
-    char makeMove();  
+    char move;
+    char move2;
+    char move3;
+
+
+    char makeMove();
 
 
 
