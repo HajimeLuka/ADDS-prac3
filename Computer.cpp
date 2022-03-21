@@ -27,7 +27,6 @@ char Computer::makeMove(){
         if (number==5){
         return move5;
     }
+    
 }
-
-//computer only plays rock
 

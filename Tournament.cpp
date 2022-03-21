@@ -19,8 +19,8 @@ player * Tournament::run(array<player*, 8>  competitors){
 
     char res;
     int matchRes;
-    char aChoice;
-    char bChoice;
+    // char aChoice;
+    // char bChoice;
 
     for (int j=0; j<4; j++){
         res = ref.refGame(competitors[0],competitors[1]);
@@ -51,8 +51,5 @@ player * Tournament::run(array<player*, 8>  competitors){
         }
 
     }
-
-
-
 
 }

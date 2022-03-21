@@ -5,7 +5,7 @@ player::player(){
 
 }
 
-    char player::makeMove(){
+char player::makeMove(){
         
     return move;
 }
