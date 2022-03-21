@@ -1,6 +1,7 @@
 #include <iostream>
 #include "Referee.h"
-
+#include <string>
+using namespace std;
 
 Referee::Referee(){
 
@@ -11,12 +12,8 @@ Referee::Referee(){
 //     char aChoice = player1.makeMove(num);
 //     char bChoice = player2.makeMove(num);
 
-char Referee::refGame(player* player1, player* player2){
+char Referee::refGame(Player* player1, Player* player2){
 
-
-
-    // cout<<aChoice<<endl;
-    // cout<<bChoice<<endl;
 
     if (player1->makeMove() == 'R' && player2->makeMove() == 'R'){
         return 'T';

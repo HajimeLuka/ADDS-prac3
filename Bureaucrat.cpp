@@ -6,5 +6,5 @@ using namespace std;
 
 Bureaucrat::Bureaucrat():Computer(){
     move='P';
-} 
+}
 

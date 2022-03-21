@@ -5,10 +5,10 @@
 
 using namespace std;
 
-class Human:public player{
+class Human:public Player{
 
     public: //constructor
-    
+
     Human();
     char makeMove();
 

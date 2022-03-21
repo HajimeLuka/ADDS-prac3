@@ -3,7 +3,7 @@
 #include "Player.h"
 using namespace std;
 
-Human::Human():player(){
+Human::Human():Player(){
 
 }
 

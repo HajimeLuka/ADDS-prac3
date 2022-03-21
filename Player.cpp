@@ -1,11 +1,12 @@
 #include <iostream>
 #include "Player.h"
 
-player::player(){
+
+Player::Player(){
 
 }
 
-char player::makeMove(){
-        
+char Player::makeMove(){
+
     return move;
 }

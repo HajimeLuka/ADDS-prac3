@@ -11,7 +11,7 @@ using namespace std;
 class Tournament{
     public:
     Tournament();
-    player * run(array<player* , 8>  competitors); 
+    Player * run(array<Player* , 8>  competitors);
     int p1Count;
     int p2Count;
 

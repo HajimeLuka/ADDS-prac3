@@ -5,7 +5,7 @@
 #include "Player.h"
 using namespace std;
 
-Computer::Computer():player(){
+Computer::Computer():Player(){
 
 
 }
@@ -27,6 +27,6 @@ char Computer::makeMove(){
         if (number==5){
         return move5;
     }
-    
+
 }
 

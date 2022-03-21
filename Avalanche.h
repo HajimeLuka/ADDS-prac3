@@ -11,7 +11,7 @@ class Avalanche:public Computer{
     public:
     Avalanche();
 
-    
+
 
 
 };

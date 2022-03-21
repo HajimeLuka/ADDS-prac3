@@ -9,7 +9,7 @@ class Referee{
     public:
 
     Referee( ); // constructor
-   char refGame(player* player1, player* player2);
+    char refGame(Player* player1, Player* player2);
     // returns the outcome for player1:  'W', 'L' or 'T' (Win, Lose, Tie)
 
 };

@@ -5,10 +5,11 @@
 
 using namespace std;
 
-class player{
+class Player{
     public:
-    player();
+    Player();
     char makeMove();
+    protected:
     char move;
 
 

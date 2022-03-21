@@ -10,7 +10,7 @@ Tournament::Tournament(){
 
 }
 
-player * Tournament::run(array<player*, 8>  competitors){
+Player * Tournament::run(array<Player*, 8>  competitors){
 
     int p1Count=0;
     int p2Count=0;
