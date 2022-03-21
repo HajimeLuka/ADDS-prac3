@@ -13,6 +13,7 @@ RandomComputer::RandomComputer():Computer(){
     }
     if (random==2){
         move=='P';
+    }
     if (random==3){
         move=='S';
     }
