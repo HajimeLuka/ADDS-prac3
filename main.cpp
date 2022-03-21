@@ -8,6 +8,7 @@
 #include "Crescendo.h"
 #include "PaperDoll.h"
 #include "FistfullODollars.h"
+#include "Tournament.h"
 
 #include <string>
 
@@ -15,12 +16,35 @@ using namespace std;
 
 int main(){
 
+	Computer* player[8];
+	Tournament tournament;
+	char aChoice;
+	char bChoice;
+
     Human h = Human();
     Bureaucrat b = Bureaucrat();
     Toolbox t = Toolbox();
     Avalanche a = Avalanche();
     Referee r = Referee();
 
-    cout << r.refGame(h,t) << endl;
+    aChoice = h.makeMove(1);
+    bChoice = h.makeMove(1);
+
+    cout << r.refGame(aChoice, bChoice) << endl;
+
+    // Avalanche* player1 = new Avalanche();
+    // Bureaucrat* player2 = new Bureaucrat();
+    // Toolbox* player3 = new Toolbox();
+    // Crescendo* player4 = new Crescendo();
+    // PaperDoll* player5 = new PaperDoll();
+    // FistFullODollars* Player6= new FistFullODollars();
+    // Bureaucrat* player7 = new Bureaucrat();
+    // Toolbox* player8 = new Toolbox();
+
+    // tournament = new Tournament();
+
+    // array<Player *, 8>  competitors = {player1, player2 ,player3, player4, player5, player6, player7, player8};
+ 
+    // tournament.run(competitors);
 
 }

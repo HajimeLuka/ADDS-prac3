@@ -2,6 +2,8 @@
 #define AVALANCHE_H
 
 #include "Computer.h"
+#include "Player.h"
+
 #include <iostream>
 using namespace std;
 

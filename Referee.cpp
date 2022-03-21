@@ -7,35 +7,42 @@ Referee::Referee(){
 
 }
 
-char Referee::refGame(Human player1, Computer player2){
-    char hChoice = player1.makeMove();
-    char cChoice = player2.makeMove();
+// char Referee::refGame(player player1, player player2, int num){
+//     char aChoice = player1.makeMove(num);
+//     char bChoice = player2.makeMove(num);
 
-    if (hChoice == 'R' && cChoice == 'R'){
+char Referee::refGame(char aChoice, char bChoice){
+
+
+
+    // cout<<aChoice<<endl;
+    // cout<<bChoice<<endl;
+
+    if (aChoice == 'R' && bChoice == 'R'){
         return 'T';
     }
-       else if (hChoice == 'P' && cChoice == 'R'){
+       else if (aChoice == 'P' && bChoice == 'R'){
         return 'W';
     }
-       else if (hChoice=='S' && cChoice=='R'){
+       else if (aChoice=='S' && bChoice=='R'){
         return 'L';
     }
-           else if (hChoice=='R' && cChoice=='P'){
+           else if (aChoice=='R' && bChoice=='P'){
         return 'L';
     }
-           else if (hChoice=='P' && cChoice=='P'){
+           else if (aChoice=='P' && bChoice=='P'){
         return 'T';
     }
-           else if (hChoice=='S' && cChoice=='P'){
+           else if (aChoice=='S' && bChoice=='P'){
         return 'W';
     }
-           else if (hChoice=='R' && cChoice=='S'){
+           else if (aChoice=='R' && bChoice=='S'){
         return 'W';
     }
-           else if (hChoice=='P' && cChoice=='S'){
+           else if (aChoice=='P' && bChoice=='S'){
         return 'L';
     }
-           else if (hChoice=='S' && cChoice=='S'){
+           else if (aChoice=='S' && bChoice=='S'){
         return 'T';
     }
     else {

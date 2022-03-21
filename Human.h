@@ -1,18 +1,22 @@
 #ifndef HUMAN_H
 #define HUMAN_H
 #include <string>
+#include "Player.h"
+
 using namespace std;
 
-class Human{
+class Human:public player{
 
     public: //constructor
     Human();
-    char makeMove();
+    char makeMove(int num);
 
-
-    private:
-    char move; 
-
+    protected:
+    char move;
+    char move2;
+    char move3;
+    char move4;
+    char move5;
 
 };
 

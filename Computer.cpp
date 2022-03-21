@@ -2,16 +2,31 @@
 #include "Computer.h"
 #include <string>
 #include <stdlib.h>
+#include "Player.h"
 using namespace std;
 
-Computer::Computer(){
+Computer::Computer():player(){
 
 
 }
 
 
-char Computer::makeMove(){
-    return move;
+char Computer::makeMove(int number){
+    if (number==1){
+        return move;
+    }
+        if (number==2){
+        return move2;
+    }
+        if (number==3){
+        return move3;
+    }
+        if (number==4){
+        return move4;
+    }
+        if (number==5){
+        return move5;
+    }
 }
 
 //computer only plays rock
