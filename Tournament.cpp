@@ -10,7 +10,7 @@ Tournament::Tournament(){
 
 }
 
-player * Tournament::run(array<player, 8>  competitors){
+player * Tournament::run(array<player*, 8>  competitors){
 
     int p1Count=0;
     int p2Count=0;
@@ -23,7 +23,7 @@ player * Tournament::run(array<player, 8>  competitors){
     char bChoice;
 
     for (int j=0; j<4; j++){
-        res = ref.refGame(aChoice, bChoice);
+        res = ref.refGame(competitors[0],competitors[1]);
 
         for (int i=0; i<5; i++){
 

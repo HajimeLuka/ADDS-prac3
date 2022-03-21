@@ -11,38 +11,38 @@ Referee::Referee(){
 //     char aChoice = player1.makeMove(num);
 //     char bChoice = player2.makeMove(num);
 
-char Referee::refGame(char aChoice, char bChoice){
+char Referee::refGame(player* player1, player* player2){
 
 
 
     // cout<<aChoice<<endl;
     // cout<<bChoice<<endl;
 
-    if (aChoice == 'R' && bChoice == 'R'){
+    if (player1->makeMove() == 'R' && player2->makeMove() == 'R'){
         return 'T';
     }
-       else if (aChoice == 'P' && bChoice == 'R'){
+       else if (player1->makeMove() == 'P' && player2->makeMove() == 'R'){
         return 'W';
     }
-       else if (aChoice=='S' && bChoice=='R'){
+       else if (player1->makeMove()=='S' && player2->makeMove()=='R'){
         return 'L';
     }
-           else if (aChoice=='R' && bChoice=='P'){
+           else if (player1->makeMove()=='R' && player2->makeMove()=='P'){
         return 'L';
     }
-           else if (aChoice=='P' && bChoice=='P'){
+           else if (player1->makeMove()=='P' && player2->makeMove()=='P'){
         return 'T';
     }
-           else if (aChoice=='S' && bChoice=='P'){
+           else if (player1->makeMove()=='S' && player2->makeMove()=='P'){
         return 'W';
     }
-           else if (aChoice=='R' && bChoice=='S'){
+           else if (player1->makeMove()=='R' && player2->makeMove()=='S'){
         return 'W';
     }
-           else if (aChoice=='P' && bChoice=='S'){
+           else if (player1->makeMove()=='P' && player2->makeMove()=='S'){
         return 'L';
     }
-           else if (aChoice=='S' && bChoice=='S'){
+           else if (player1->makeMove()=='S' && player2->makeMove()=='S'){
         return 'T';
     }
     else {

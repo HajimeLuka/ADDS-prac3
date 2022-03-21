@@ -8,7 +8,7 @@ Human::Human():player(){
 }
 
 
-char Human::makeMove(int num){
+char Human::makeMove(){
 
  cout << "Enter Move: ";
  cin>>move;

@@ -5,6 +5,7 @@ player::player(){
 
 }
 
-    char player::makeMove(int num){
+    char player::makeMove(){
+        
     return move;
 }

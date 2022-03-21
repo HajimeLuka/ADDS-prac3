@@ -11,7 +11,7 @@ Computer::Computer():player(){
 }
 
 
-char Computer::makeMove(int number){
+char Computer::makeMove(){
     if (number==1){
         return move;
     }

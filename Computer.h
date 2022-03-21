@@ -17,9 +17,9 @@ class Computer: public player{
 
     public:
     Computer();
+    int number;
 
-
-    char makeMove(int num);
+    char makeMove();
 
 
 

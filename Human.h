@@ -8,8 +8,9 @@ using namespace std;
 class Human:public player{
 
     public: //constructor
+    
     Human();
-    char makeMove(int num);
+    char makeMove();
 
     protected:
     char move;

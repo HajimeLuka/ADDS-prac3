@@ -8,7 +8,7 @@ using namespace std;
 class player{
     public:
     player();
-    virtual char makeMove(int num);
+    virtual char makeMove();
     char move;
 
 
