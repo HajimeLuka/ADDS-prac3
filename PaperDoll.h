@@ -1,5 +1,5 @@
-#ifndef CRESCENDO_H
-#define CRESCENDO_H
+#ifndef PAPERDOLL_H
+#define PAPERDOLL_H
 
 #include <iostream>
 #include "Computer.h"
