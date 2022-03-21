@@ -12,10 +12,10 @@ RandomComputer::RandomComputer():Computer(){
         move='R';
     }
     if (random==2){
-        move=='P';
+        move='P';
     }
     if (random==3){
-        move=='S';
+        move='S';
     }
 
 }
